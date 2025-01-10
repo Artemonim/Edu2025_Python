@@ -1,0 +1,5 @@
+line = input()
+cost = round(len(line) * 0.6, 2)
+rubles = int(cost)
+kopecks = round((cost - rubles) * 100)
+print(f"{rubles} р. {kopecks} коп.")
