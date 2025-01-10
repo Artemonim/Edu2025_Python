@@ -7,7 +7,7 @@
 
 Welcome to my Python Learning Repository!
 
-This repository contains the code I write while taking an interactive Python course. The repository is public, and I plan to develop it as I progress through the current and future courses. Eventually, I aim to showcase this repository to potential employers on my GitHub account. This project will also reflect my GitHub activity.
+This repository contains the code I write while taking an interactive Python course. The repository is public, and I plan to develop it as I progress through the current and future courses.
 
 ### Structure
 
@@ -57,7 +57,7 @@ This repository contains the code I write while taking an interactive Python cou
 
 Добро пожаловать в мой репозиторий для изучения Python!
 
-Этот репозиторий содержит код, который я пишу при прохождении интерактивного курса по Python. Репозиторий публичный, и я планирую развивать его по мере прохождения текущего и последующих курсов. В конечном итоге я хочу демонстрировать этот репозиторий потенциальным работодателям в своём аккаунте на GitHub. Этот проект также будет отражать мою активность на GitHub.
+Этот репозиторий содержит код, который я пишу при прохождении интерактивного курса по Python. Репозиторий публичный, и я планирую развивать его по мере прохождения текущего и последующих курсов.
 
 ### Структура
 
