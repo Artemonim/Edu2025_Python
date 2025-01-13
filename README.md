@@ -5,8 +5,6 @@
 
 ## English version
 
-Welcome to my Python Learning Repository!
-
 This repository contains the code I write while taking an interactive Python course. The repository is public, and I plan to develop it as I progress through the current and future courses.
 
 ### Structure
@@ -15,9 +13,9 @@ This repository contains the code I write while taking an interactive Python cou
 - docs/: Documentation files
 - src/: Source code directory
   - config/: Configuration files
-  - core/: Core functionality
+  - core/:
   - data/: Data files
-  - exercises_part2/: Course exercises
+  - exercises_part.../: Python course exercises
   - utils/: Utility functions
 - tests/: Test files
 - venv/: Python virtual environment
@@ -51,12 +49,7 @@ This repository contains the code I write while taking an interactive Python cou
 
 </details>
 
-<details>
-<summary>Русская версия</summary>
-
-## Русская версия
-
-Добро пожаловать в мой репозиторий для изучения Python!
+---
 
 Этот репозиторий содержит код, который я пишу при прохождении интерактивного курса по Python. Репозиторий публичный, и я планирую развивать его по мере прохождения текущего и последующих курсов.
 
@@ -66,9 +59,9 @@ This repository contains the code I write while taking an interactive Python cou
 - docs/: Документация
 - src/: Каталог исходного кода
     - config/: Конфигурационные файлы
-    - core/: Основная функциональность
+    - core/:
     - data/: Файлы данных
-    - exercises_part2/: Упражнения курса
+    - exercises_part.../: Упражнения Python курса
     - utils/: Вспомогательные функции
 - tests/: Тестовые файлы
 - venv/: Виртуальное окружение Python
@@ -99,8 +92,6 @@ This repository contains the code I write while taking an interactive Python cou
     python setup.py
     ```
 4. Выберите и запустите Python скрипты
-
-</details>
 
 ### License / Лицензия
 
