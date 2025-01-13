@@ -43,10 +43,11 @@ This repository contains the code I write while taking an interactive Python cou
     ```bash
     cd your-repo-name
     ```
-3. Choose and run the Python scripts:
-    ```bash
-    python src/main.py
+3. Run setup.py
     ```
+    python setup.py
+    ```
+4. Choose and run the Python scripts
 
 </details>
 
@@ -93,10 +94,11 @@ This repository contains the code I write while taking an interactive Python cou
         ```bash
         cd your-repo-name
         ```
-3. Выберите и запустите Python скрипты:
-        ```bash
-        python src/main.py
-        ```
+3. Запустите setup.py
+    ```
+    python setup.py
+    ```
+4. Выберите и запустите Python скрипты
 
 </details>
 

@@ -1,6 +1,14 @@
-from setuptools import setup, find_packages
+# Try to import from setuptools
+# If can't, then install setuptools with pip
+try:
+    from setuptools import setup, find_packages
+except ImportError:
+    import subprocess
+    import sys
+    # Install setuptools
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'setuptools'])
+    from setuptools import setup, find_packages
 
-# Чтение зависимостей из файла requirements.txt
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
