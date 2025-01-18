@@ -1,3 +1,7 @@
+'''
+    https://stepik.org/course/58852
+'''
+
 print('4')
 print('8')
 print('15')
