@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        fetch-depth: 2
+        fetch-depth: 0  # Полная история коммитов
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
@@ -22,16 +22,11 @@ jobs:
         pip install pylint
     - name: Analyzing the code with pylint
       run: |
-        CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD -- '*.py')
+        CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.py')
         if [ -n "$CHANGED_FILES" ]; then
-          EXISTING_FILES=$(echo "$CHANGED_FILES" | xargs -I {} bash -c 'if [ -f "{}" ]; then echo "{}"; fi')
-          if [ -n "$EXISTING_FILES" ]; then
-            echo "Running pylint on changed files:"
-            echo "$EXISTING_FILES"
-            pylint $EXISTING_FILES
-          else
-            echo "No existing Python files to lint, skipping pylint."
-          fi
+          echo "Running pylint on changed files:"
+          echo "$CHANGED_FILES"
+          pylint $CHANGED_FILES
         else
           echo "No Python files changed, skipping pylint."
         fi
